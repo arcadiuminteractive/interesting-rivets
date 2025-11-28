@@ -1,0 +1,38 @@
+# Roblox Studio files
+*.rbxlx.lock
+*.rbxl
+
+# Rojo build artifacts
+build/
+
+# Wally packages (installed via wally install)
+Packages/_Index/
+Packages/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Logs
+*.log
+
+# Node modules (if using for any tooling)
+node_modules/
+
+# Environment files
+.env
+.env.local

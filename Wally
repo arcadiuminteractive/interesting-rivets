@@ -1,0 +1,18 @@
+[package]
+name = "aracdiuminteractive/raid-game"
+version = "1.0.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+description = "PvE Raid Game - Multi-place Roblox experience with trading, battle pass, and boss raids"
+license = "MIT"
+authors = ["Trenton Lepp <arcadiuminteractive@gmail.com>"]
+
+[dependencies]
+ProfileStore = "madstudioroblox/profilestore@2.0.7"
+Signal = "sleitnick/signal@1.5.0"
+Trove = "sleitnick/trove@0.5.0"
+Promise = "evaera/promise@4.0.0"
+
+[server-dependencies]
+
+[dev-dependencies]

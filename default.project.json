@@ -1,0 +1,160 @@
+{
+  "name": "RaidGame",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedFirst": {
+      "$className": "ReplicatedFirst",
+      "$path": "src/ReplicatedFirst"
+    },
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      
+      "Packages": {
+        "$className": "Folder",
+        "$path": "src/ReplicatedStorage/Packages"
+      },
+
+      "Shared": {
+        "$className": "Folder",
+        "$path": "src/ReplicatedStorage/Shared"
+      },
+
+      "Network": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true,
+        
+        "Server": {
+          "$className": "Folder",
+          "$properties": {
+            "Name": "Server"
+          },
+          "$ignoreUnknownInstances": true
+        },
+        
+        "Client": {
+          "$className": "Folder",
+          "$properties": {
+            "Name": "Client"
+          },
+          "$ignoreUnknownInstances": true
+        }
+      },
+
+      "Config": {
+        "$className": "Folder",
+        "$path": "src/ReplicatedStorage/Config"
+      },
+
+      "Assets": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true,
+        "$properties": {
+          "Name": "Assets"
+        }
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "src/ServerScriptService"
+    },
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "$path": "src/ServerStorage",
+      
+      "Templates": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true,
+        "$properties": {
+          "Name": "Templates"
+        }
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      
+      "StarterCharacterScripts": {
+        "$className": "StarterCharacterScripts",
+        "$path": "src/StarterPlayer/StarterCharacterScripts"
+      },
+      
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
+      }
+    },
+
+    "StarterGui": {
+      "$className": "StarterGui",
+      "$ignoreUnknownInstances": true,
+      "$properties": {
+        "Name": "StarterGui"
+      }
+    },
+
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "FilteringEnabled": true,
+        "StreamingEnabled": true,
+        "StreamingMinRadius": 64,
+        "StreamingTargetRadius": 256
+      },
+      
+      "Lobby": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true,
+        "$properties": {
+          "Name": "Lobby"
+        }
+      },
+      
+      "Raid": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true,
+        "$properties": {
+          "Name": "Raid"
+        }
+      },
+
+      "MobSpawners": {
+        "$className": "Folder",
+        "$ignoreUnknownInstances": true,
+        "$properties": {
+          "Name": "MobSpawners"
+        }
+      }
+    },
+
+    "SoundService": {
+      "$className": "SoundService",
+      "$properties": {
+        "AmbientReverb": "NoReverb",
+        "DistanceFactor": 3.33,
+        "DopplerScale": 1,
+        "RolloffScale": 1
+      },
+      "$ignoreUnknownInstances": true
+    },
+
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "Ambient": [0, 0, 0],
+        "Brightness": 2,
+        "ColorShift_Bottom": [0, 0, 0],
+        "ColorShift_Top": [0, 0, 0],
+        "EnvironmentDiffuseScale": 0.5,
+        "EnvironmentSpecularScale": 0.5,
+        "GlobalShadows": true,
+        "OutdoorAmbient": [70, 70, 70],
+        "Technology": "ShadowMap"
+      },
+      "$ignoreUnknownInstances": true
+    }
+  }
+}
