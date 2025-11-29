@@ -1,5 +1,5 @@
 [package]
-name = "aracdiuminteractive/raid-game"
+name = "arcadiuminteractive/interesting-rivets"
 version = "1.0.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
@@ -7,8 +7,13 @@ description = "PvE Raid Game - Multi-place Roblox experience with trading, battl
 license = "MIT"
 authors = ["Trenton Lepp <arcadiuminteractive@gmail.com>"]
 
-
 [dependencies]
+profilestore = "vyon/profilestore@1.0.3"
+signal = "sleitnick/signal@2.0.3"
+trove = "sleitnick/trove@1.8.0"
+promise = "evaera/promise@4.0.0"
+topbarplus = "1foreverhd/topbarplus@3.4.0"
+comm = "sleitnick/comm@1.0.1"
 
 [server-dependencies]
 
